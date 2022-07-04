@@ -16,25 +16,43 @@ ul, a{
 
 /*MENU*/
 
-.menu{
+.header-bg{
   background: #308662;
-  padding: 20px 0;
 }
 
-.menu-logo{
-  height: 100px;
-}
-
-.menu-nav a{
-  display: inline-block;
-  padding: 16px 5px;
-}
-
-.container{
-  max-width: 960px;
-  margin: 0 auto;
+.header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.header-logo{
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+.header-menu{
+  display: flex;
+  gap: 30px;
+}
+
+.header-menu a{
+  display: inline-block;
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #469675;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.header-menu a:hover{
+  background: #eedb31;
+}
