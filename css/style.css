@@ -95,3 +95,28 @@ ul, a{
     font-size: 0.875rem;
   }
 }
+
+/*MAIN*/
+
+.img-entrada{
+  box-sizing: border-box;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  max-height: 1000px;
+  height: auto;
+  width: auto;
+}
+
+.introducao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1400px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
