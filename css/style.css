@@ -14,10 +14,11 @@ ul, a{
   box-sizing: border-box;
 }
 
+
 /*MENU*/
 
 .header-bg{
-  background: linear-gradient(135deg, #308662, #3ead7f);
+  background: linear-gradient(135deg, #b3d3d9, #4e7d95);
 }
 
 .header{
@@ -98,15 +99,11 @@ ul, a{
 
 /*MAIN*/
 
-.img-entrada{
+.img-entrada img{
+  display: block;
   box-sizing: border-box;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1000px;
-  max-height: 1000px;
-  height: auto;
-  width: auto;
+  margin: 20px auto;
+  max-width: 1400px;
 }
 
 .introducao{
@@ -114,9 +111,67 @@ ul, a{
   grid-template-columns: 1fr 1fr;
   max-width: 1400px;
   box-sizing: border-box;
-  padding: 20px;
   margin-left: auto;
   margin-right: auto;
+  color: white;
+}
+
+.bem-vindo{
+  background: #b3d3d9;
+  color: #333534
+}
+
+.bem-vindo h1{
+  font-size: 1.7rem;
+  margin: 0 auto 20px auto;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.bem-vindo h2{
+  text-align: center;
+  margin: 0 auto 20px 20px;
+}
+
+.bem-vindo p{
+  text-align: left;
+  margin: 0 auto 20px auto;
+  max-width: 500px;
+  font-size: 1.2rem;
+}
+
+.bem-vindo p:last-child{
+  margin-bottom: 30px;
+}
+
+.servicos{
+  background: #4e7d95;
+}
+
+.servicos h1{
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin: 0 auto 20px auto;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.servicos h2{
+  text-align: center;
+  margin: 0 auto 20px 20px;
+  font-weight: 300;
+}
+
+.servicos p{
+  text-align: left;
+  margin: 0 auto 20px auto;
+  max-width: 500px;
+  font-size: 1.2rem;
+}s
+
+
+.servicos p:last-child{
+  margin-bottom: 30px;
 }
 
 
