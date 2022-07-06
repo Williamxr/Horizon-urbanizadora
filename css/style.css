@@ -19,6 +19,8 @@ ul, a{
 
 .header-bg{
   background: linear-gradient(135deg, #b3d3d9, #4e7d95);
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 .header{
@@ -99,17 +101,20 @@ ul, a{
 
 /*MAIN*/
 
+.img-entrada{
+  margin: 0 auto;
+}
+
 .img-entrada img{
   display: block;
   box-sizing: border-box;
-  margin: 20px auto;
-  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .introducao{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1400px;
+  max-width: 1800px;
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
