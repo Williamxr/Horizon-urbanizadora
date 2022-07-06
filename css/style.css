@@ -107,8 +107,10 @@ ul, a{
 
 .img-entrada img{
   display: block;
+  width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .introducao{
