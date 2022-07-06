@@ -129,20 +129,20 @@ ul, a{
 
 .bem-vindo h1{
   font-size: 1.7rem;
-  margin: 70px auto 20px auto;
+  margin: 70px auto 20px 30px;
   padding: 5px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .bem-vindo h2{
-  text-align: center;
-  margin: 0 auto 20px 20px;
+  text-align: left;
+  margin: 0 auto 20px 30px;
 }
 
 .bem-vindo p{
-  text-align: left;
-  margin: 0 auto 20px auto;
-  max-width: 500px;
+  text-align: justify;
+  margin: 0 20px 20px 30px;
+  max-width: 700px;
   font-size: 1.2rem;
 }
 
@@ -157,20 +157,20 @@ ul, a{
 .servicos h1{
   text-transform: uppercase;
   font-size: 1.7rem;
-  margin: 70px auto 20px auto;
+  margin: 70px auto 20px 30px;
   padding: 5px 0;
-  text-align: center;
+  text-align: justify;
 }
 
 .servicos h2{
-  text-align: center;
-  margin: 0 auto 20px 20px;
+  text-align: justify;
+  margin: 0 30px 20px 30px;
   font-weight: 300;
 }
 
 .servicos p{
   text-align: left;
-  margin: 0 auto 20px auto;
+  margin: 0 20px 20px 120px;
   max-width: 500px;
   font-size: 1.2rem;
 }s
