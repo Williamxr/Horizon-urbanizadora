@@ -101,23 +101,22 @@ ul, a{
 
 /*MAIN*/
 
-.img-entrada{
+.main{
+  max-width: 1800px;
   margin: 0 auto;
 }
 
-.img-entrada img{
+.img-entrada{
   display: block;
   width: 100%;
-  box-sizing: border-box;
   margin: 0 auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .introducao{
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1800px;
-  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   color: white;
@@ -130,7 +129,7 @@ ul, a{
 
 .bem-vindo h1{
   font-size: 1.7rem;
-  margin: 0 auto 20px auto;
+  margin: 70px auto 20px auto;
   padding: 5px 0;
   text-align: center;
 }
@@ -158,7 +157,7 @@ ul, a{
 .servicos h1{
   text-transform: uppercase;
   font-size: 1.7rem;
-  margin: 0 auto 20px auto;
+  margin: 70px auto 20px auto;
   padding: 5px 0;
   text-align: center;
 }
