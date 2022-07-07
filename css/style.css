@@ -173,6 +173,12 @@ ul, a{
   margin-bottom: 30px;
 }
 
+.bem-vindo a{
+  color: #32724a;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .servicos{
   background: #4e7d95;
 }
