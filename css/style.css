@@ -264,3 +264,35 @@ ul, a{
     letter-spacing: 0;
   }
 }
+
+/* PROJETOS */
+
+.projetos{
+  max-width: 1800px;
+  margin: 60px auto 60px 120px;
+}
+
+.projetos-titulo{
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #094f64;
+}
+
+.projetos-titulo::after{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 60px;
+  background: #094f64;
+  margin-top: 8px;
+}
+
+.projetos-conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
