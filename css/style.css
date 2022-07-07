@@ -99,6 +99,7 @@ ul, a{
   .header-menu a{
     padding: 8px 12px;
     font-size: 0.875rem;
+    letter-spacing: 1px;
   }
 }
 
@@ -147,7 +148,7 @@ ul, a{
 .bem-vindo h1::after{
   content: '';
   display: block;
-  height: 2px;
+  height: 4px;
   width: 65px;
   background: #333534;
   margin-top: 12px;
@@ -195,7 +196,7 @@ ul, a{
 .servicos h1::after{
   content: '';
   display: block;
-  height: 2px;
+  height: 4px;
   width: 65px;
   background: white;
   margin-top: 12px;
@@ -246,4 +247,20 @@ ul, a{
   }
 }
 
+@media(max-width: 800px){
+  .servicos p, .servicos h2{
+    letter-spacing: .8px;
+  }
+  .bem-vindo p, .bem-vindo h2{
+    letter-spacing: .8px;
+  }
+}
 
+@media(max-width: 600px){
+  .servicos p, .servicos h2{
+    letter-spacing: 0;
+  }
+  .bem-vindo p, .servicos h2{
+    letter-spacing: 0;
+  }
+}
