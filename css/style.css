@@ -157,6 +157,7 @@ ul, a{
   letter-spacing: 1px;
   text-align: left;
   margin: 0 auto 20px 30px;
+  font-family: 'Robot', sans-serif;
 }
 
 .bem-vindo p{
@@ -165,6 +166,7 @@ ul, a{
   max-width: 700px;
   font-size: 1.2rem;
   letter-spacing: 1px;
+  font-family: 'Robot', sans-serif;
 }
 
 .bem-vindo p:last-child{
@@ -198,12 +200,14 @@ ul, a{
   margin: 0 30px 40px 30px;
   font-weight: 300;
   letter-spacing: 1px;
+  font-family: 'Robot', sans-serif;
 }
 
 .servicos p{
   text-align: left;
   margin: 20px 30px 20px 50px;
   max-width: 800px;
+  font-family: 'Robot', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 1px;
   display: flex;
