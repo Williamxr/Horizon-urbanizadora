@@ -49,6 +49,9 @@ ul, a{
 }
 
 .header-menu a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
   display: inline-block;
   padding: 12px 0;
   font-size: 1rem;
@@ -135,6 +138,7 @@ ul, a{
 
 .bem-vindo h1{
   font-size: 1.7rem;
+  letter-spacing: 2.5px;
   margin: 70px auto 20px 30px;
   padding: 5px 0;
   text-align: left;
@@ -150,6 +154,7 @@ ul, a{
 }
 
 .bem-vindo h2{
+  letter-spacing: 1px;
   text-align: left;
   margin: 0 auto 20px 30px;
 }
@@ -159,6 +164,7 @@ ul, a{
   margin: 0 20px 20px 30px;
   max-width: 700px;
   font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 
 .bem-vindo p:last-child{
@@ -172,6 +178,7 @@ ul, a{
 .servicos h1{
   text-transform: uppercase;
   font-size: 1.7rem;
+  letter-spacing: 2.5px;
   margin: 70px auto 20px 30px;
   padding: 5px 0;
   text-align: justify;
@@ -190,6 +197,7 @@ ul, a{
   text-align: justify;
   margin: 0 30px 40px 30px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .servicos p{
@@ -197,6 +205,7 @@ ul, a{
   margin: 20px 30px 20px 50px;
   max-width: 800px;
   font-size: 1.2rem;
+  letter-spacing: 1px;
   display: flex;
 }
 
