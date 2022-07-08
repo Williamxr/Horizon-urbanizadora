@@ -143,6 +143,7 @@ ul, a{
   margin: 70px auto 20px 30px;
   padding: 5px 0;
   text-align: left;
+  font-family: 'Quicksand';
 }
 
 .bem-vindo h1::after{
@@ -150,7 +151,7 @@ ul, a{
   display: block;
   height: 4px;
   width: 65px;
-  background: #333534;
+  background: #555857;
   margin-top: 12px;
 }
 
@@ -178,6 +179,7 @@ ul, a{
   color: #32724a;
   font-weight: bold;
   font-style: italic;
+  text-decoration: underline;
 }
 
 .servicos{
@@ -185,6 +187,7 @@ ul, a{
 }
 
 .servicos h1{
+  font-family: 'Quicksand';
   text-transform: uppercase;
   font-size: 1.7rem;
   letter-spacing: 2.5px;
@@ -267,9 +270,28 @@ ul, a{
 
 /* PROJETOS */
 
+.projetos-titulo{
+  margin: 60px auto 60px 60px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #094f64;
+}
+
+.projetos-titulo::after{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 60px;
+  background: #094f64;
+  margin-top: 8px;
+}
+
 .projetos{
   max-width: 1800px;
   margin: 0 auto;
+  padding: 50px 20px 20px 50px;
+  background: linear-gradient(#D3D3D3, #4e7d95);
 }
 
 .projetos-titulo{
@@ -292,4 +314,82 @@ ul, a{
 .projetos-conteudo{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.projetos-texto{
+  margin-left: -90px;
+}
+
+.projetos-texto h1{
+  color: #c23756;
+  margin: -30px auto 30px auto;
+  font-size: 2rem;
+  font-family: 'Quicksand';
+}
+
+.projetos-texto h2{
+  color: #0d3550;
+  max-width: 450px;
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-family: 'Robot', sans-serif;
+}
+
+.projetos-texto p{
+  color: #0d3550;
+  font-family: 'Robot', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  max-width: 450px;
+}
+
+.info{
+  margin: 30px 0;
+}
+
+.info span{
+  display: block;
+  margin: 15px 0;
+  color: #0d3550;
+  font-family: 'Robot', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.info span::before{
+  content: '🞂';
+  margin-right: 5px;
+  color: #c23756;
+}
+
+.projetos-texto h3{
+  color: #0d3550;
+  max-width: 350px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Robot', sans-serif;
+}
+
+.projetos-texto ul li{
+  color: #0d3550;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.projetos-texto ul li::before{
+  content: '✓';
+  color: #c23756;
+  margin-right: 5px;
+}
+
+.img-lotes img{
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
