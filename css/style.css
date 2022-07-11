@@ -248,9 +248,6 @@ ul, a{
   .servicos h1{
     margin-top: 40px;
   }
-}
-
-@media(max-width: 800px){
   .servicos p, .servicos h2{
     letter-spacing: .8px;
   }
@@ -393,10 +390,31 @@ ul, a{
   margin-right: 5px;
 }
 
-.img-lotes img{
+.img-lotes{
   display: block;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 20px 0 auto;
   object-fit: cover;
   border-radius: 20px;
+}
+
+@media (max-width:1000px){
+  .projetos-conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .condbarra-logo img{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .projetos-texto{
+    margin: 50px auto 50px 0;
+    max-width: 800px;
+  }
+  .projetos-texto p{
+    max-width: 700px;
+  }
 }
