@@ -418,3 +418,13 @@ ul, a{
     max-width: 700px;
   }
 }
+
+.video-bg{
+  max-width: 1800px;
+  margin: 0 auto;
+  background-color: #308662;
+}
+
+.video iframe{
+  margin: 0 auto;
+}
