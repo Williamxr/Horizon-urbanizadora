@@ -449,3 +449,41 @@ ul, a{
     margin: 10px auto;
   }
 }
+
+.fotos-bg{
+  max-width: 1800px;
+  margin: 0 auto;
+  background: #a1c7e0;
+}
+
+.fotos ul{
+  max-width: 1800px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.fotos img{
+  border: 3px solid #a1c7e0;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.fotos img:hover{
+  border: 3px solid #0e5b92;
+}
+
+@media(max-width:1000px){
+  .fotos ul{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media(max-width:600px){
+  .fotos ul{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
