@@ -433,6 +433,19 @@ ul, a{
 .video iframe{
   margin: 20px auto 20px auto;
   display: block;
-  width: 50%;
+  width: 70%;
   object-fit: cover;
+}
+
+@media(max-width:800px){
+  .video iframe{
+    width: 80%;
+  }
+}
+
+@media(max-width:480px){
+  .video iframe{
+    width: 80%;
+    height: 400px;
+  }
 }
