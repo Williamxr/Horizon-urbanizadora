@@ -458,6 +458,7 @@ ul, a{
   max-width: 1800px;
   margin: 0 auto;
   background: #a1c7e0;
+  padding-bottom: 20px;
 }
 
 .fotos ul{
@@ -490,4 +491,9 @@ ul, a{
   .fotos ul{
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.mapa{
+  max-width: 1800px;
+  margin: 0 auto;
 }
