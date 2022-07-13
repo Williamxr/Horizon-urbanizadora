@@ -544,12 +544,25 @@ ul, a{
   letter-spacing: .75px;
 }
 
-.atendimento-info .endereço{
-  background: url(./img/localizacao.png);
+.atendimento-info .endereco{
+  background: url(../img/localizacao.png) no-repeat;
+}
+
+.atendimento-info .fone{
+  background: url(../img/fone.png) no-repeat;
+}
+
+.atendimento-info .email{
+  background:  url(../img/email.png) no-repeat;
+}
+
+.atendimento-info .horario{
+  background:  url(../img/horario.png) no-repeat;
 }
 
 .atendimento-info p{
   margin-top: 5px;
+  margin-left: 70px;
 }
 
 .contato-form{
