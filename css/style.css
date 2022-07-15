@@ -533,7 +533,7 @@ ul, a{
   display: block;
   height: 3px;
   width: 70px;
-  background: #094f64;
+  background: #4e7d95;
   margin: 20px 0;
 }
 
@@ -607,3 +607,74 @@ ul, a{
     font-size: 1.5rem;
   }
 }
+
+/* FORMULARIO */
+
+.contato-form{
+  max-width: 1800px;
+  margin: 0 auto;
+  background: #4e7d95;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  justify-items: center;
+  color: #fff;
+}
+
+.form-titulo h1{
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 150px;
+  padding-left: 200px;
+}
+
+.form-titulo h1::after{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 70px;
+  background: #a1c7e0;
+  margin: 20px 0;
+}
+
+.form-titulo h2{
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-left: 200px;
+}
+
+.contato-form label{
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.3rem;
+}
+
+.form .col-2{
+  grid-column: span 2;
+}
+
+.contato-form input[type="text"], .contato-form input[type="email"], .contato-form textarea{
+  font: 400 1rem/1.5 arial;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 12px;
+  width: 100%;
+}
+
+.contato-form input[type="text"]:focus, .contato-form input[type="email"]:focus, .contato-form textarea:focus{
+  outline: none;
+  border-color: #a1c7e0;
+  box-shadow: #0e5b92;
+}
+
+.contato-form .form-dados{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px 0;
+}
+
