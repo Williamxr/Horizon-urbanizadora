@@ -678,3 +678,10 @@ ul, a{
   padding: 20px 0;
 }
 
+@media(max-width:1110px){
+  .contato-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
