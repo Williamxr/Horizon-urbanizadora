@@ -493,79 +493,116 @@ ul, a{
   }
 }
 
+/* MAPA */
 .mapa{
   max-width: 1800px;
   margin: 0 auto;
 }
 
+/* CONTATO */
+
 .contatos{
   max-width: 1800px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 5fr 7fr;
-  height: 500px;
+  grid-template-columns: 1fr;
+  height: 300px;
+  background: #a1c7e0;
 }
 
 .atendimento{
-  background: #b3d3d9;
-  padding-left: 30px;
-  color: #fff;
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 900px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 60px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
-.atendimento-texto h1{
-  font-size: 1.75rem;
-  font-weight: bold;    
+.atendimento h1{
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 3px;  
-  margin-top: 20px;
+  letter-spacing: 3px;
+  margin-top: 30px;
 }
 
-.atendimento-texto h1::after{
+.atendimento h1::after{
   content: '';
   display: block;
-  width: 80px;
-  height: 4px;
-  margin: 12px 0;
-  background: #4e7d95;
+  height: 3px;
+  width: 70px;
+  background: #094f64;
+  margin: 20px 0;
 }
 
-.atendimento-texto h2{
-  font-size: 1.6rem;
+.atendimento h2{
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
 .atendimento-info{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-size: 1.2rem;
-  letter-spacing: .75px;
+  color: #FFF;
+  gap: 20px;
 }
 
-.atendimento-info .endereco{
-  background: url(../img/localizacao.png) no-repeat;
+.endereco, .email, .fone, .horario{
+  display: flex;
 }
 
-.atendimento-info .fone{
-  background: url(../img/fone.png) no-repeat;
+.endereco-info, .email-info, .fone-info, .horario-info{
+  margin: 10px 10px 10px 10px;
 }
 
-.atendimento-info .email{
-  background:  url(../img/email.png) no-repeat;
+@media(max-width:1110px){
+  .contatos{
+    height: 600px;
+  }
+  .atendimento{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .atendimento-texto{
+    margin: 0 auto
+  }
+  .atendimento-texto h1{
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  .atendimento-texto h2{
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  .atendimento-info{
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -220px;
+  }
 }
 
-.atendimento-info .horario{
-  background:  url(../img/horario.png) no-repeat;
-}
-
-.atendimento-info p{
-  margin-top: 5px;
-  margin-left: 70px;
-}
-
-.contato-form{
-  background: #4e7d95;
-  padding-left: 30px;
+@media(max-width:480px){
+  .contatos{
+    height: 500px;
+  }
+  .atendimento-texto{
+    display: block;
+    margin-left: -20px;
+  }
+  .atendimento-info{
+    display: block;
+    font-size: .85rem;
+    margin-left: -20px;
+  }
+  .atendimento-texto h1{
+    font-size: 2rem;
+  }
+  .atendimento-texto h2{
+    font-size: 1.5rem;
+  }
 }
