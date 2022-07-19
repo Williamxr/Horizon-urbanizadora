@@ -98,7 +98,7 @@ ul, a{
   }
   .header-menu a{
     padding: 8px 12px;
-    font-size: 0.875rem;
+    font-size: 0.775rem;
     letter-spacing: 1px;
   }
 }
@@ -597,7 +597,7 @@ ul, a{
   }
   .atendimento-info{
     display: block;
-    font-size: .85rem;
+    font-size: 1.1rem;
     margin-left: -20px;
   }
   .atendimento-texto h1{
