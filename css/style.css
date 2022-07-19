@@ -106,6 +106,7 @@ ul, a{
 @media (max-width:480px){
   .header-menu a{
     padding: 8px 5px;
+    font-size: 0.675rem
   }
 }
 
@@ -597,7 +598,7 @@ ul, a{
   }
   .atendimento-info{
     display: block;
-    font-size: 1.1rem;
+    font-size: .975rem;
     margin-left: -20px;
   }
   .atendimento-texto h1{
@@ -698,13 +699,13 @@ ul, a{
   .form .form-dados{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 10px;
     padding: 20px 0;
-    margin-right: 100px;
+    margin: 0 auto 0 -90px;
   }
   .form .form-dados input, textarea, label{
-    width: 320px;
-    margin: 0 auto 0 20px;
+    width: 300px;
+    margin: 0 auto;
   }
   .form-titulo h1, .form-titulo h2{
     margin-left: 20px;
