@@ -717,3 +717,10 @@ ul, a{
     grid-template-columns: 1fr;
   }
 }
+
+@media(max-width:400px){
+  .form .form-dados{
+    margin: 0 auto 0 -20px;
+  }
+
+}
