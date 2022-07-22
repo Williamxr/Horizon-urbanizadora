@@ -450,8 +450,8 @@ ul, a{
 
 @media(max-width:480px){
   .video iframe{
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 70%;
     margin: 10px auto;
   }
 }
