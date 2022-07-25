@@ -732,10 +732,9 @@ ul, a{
 .footer{
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 60px;
   margin: 0 auto;
 }
 
@@ -746,10 +745,16 @@ ul, a{
   height: auto;
 }
 
+.redes{
+  display: flex;
+  gap: 10px;
+}
+
 @media(max-width:800px){
   .footer{
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
     max-width: 240px;
     justify-content: center;
   }
