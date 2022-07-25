@@ -31,8 +31,7 @@ ul, a{
   align-items: center;
   padding: 20px;
   max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .header-logo{
@@ -734,7 +733,7 @@ ul, a{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px 0;
   margin: 0 auto;
