@@ -449,7 +449,7 @@ ul, a{
 
 @media(max-width:480px){
   .video iframe{
-    width: 100%;
+    width: 350px;
     height: 350px;
     margin: 10px auto;
   }
