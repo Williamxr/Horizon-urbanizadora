@@ -442,7 +442,7 @@ ul, a{
 @media(max-width:800px){
   .video iframe{
     width: 600px;
-    height: 400px;
+    height: 653px;
     margin: 20px auto;
   }
 }
@@ -450,7 +450,7 @@ ul, a{
 @media(max-width:480px){
   .video iframe{
     width: 90%;
-    height: 100%;
+    height: 653px;
     margin: 10px auto;
   }
 }
