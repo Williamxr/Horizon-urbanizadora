@@ -363,7 +363,7 @@ ul, a{
 }
 
 .info span::before{
-  content: '🞂';
+  content: '➤';
   margin-right: 5px;
   color: #c23756;
 }
@@ -517,6 +517,10 @@ ul, a{
   padding-top: 60px;
   margin-right: 30px;
   margin-left: 30px;
+}
+
+.atendimento img{
+  border-radius: 4px;
 }
 
 .atendimento h1{
@@ -702,6 +706,9 @@ ul, a{
     padding: 20px 0;
     margin: 0 auto 0 -90px;
   }
+  .form-dados label{
+    font-size: .975rem;
+  }
   .form .form-dados input, textarea, label{
     width: 300px;
     margin: 0 auto;
@@ -735,6 +742,10 @@ ul, a{
   align-items: center;
   padding: 20px 60px;
   margin: 0 auto;
+}
+
+.footer img{
+  border-radius: 4px;
 }
 
 .footer-logo{
