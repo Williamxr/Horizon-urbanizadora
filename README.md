@@ -8,7 +8,7 @@
 
  💻  O projeto [Horizon](https://williamxr.github.io/Horizon-urbanizadora/) é um site fictício sobre um condomínio localizado na Barra do Ribeiro, Porto Alegre.
 
-📱 Site desenvolvido em display GRID e algumas funcionalidades com JavaScript.
+📱 Site desenvolvido em display [GRID](https://www.origamid.com/projetos/css-grid-layout-guia-completo/) e algumas funcionalidades com JavaScript.
 
 ---
 
