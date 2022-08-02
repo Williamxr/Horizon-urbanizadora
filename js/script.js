@@ -1,6 +1,5 @@
 function initScrollSuave(){
-
-  const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+ const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
   function goScroll(event){
   event.preventDefault();
@@ -13,7 +12,7 @@ function initScrollSuave(){
     behavior: 'smooth',
     });
   }
-  
+
   linksInternos.forEach((link) => {
     link.addEventListener('click', goScroll);
   });
