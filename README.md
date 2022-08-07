@@ -23,3 +23,4 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 ## Funcionalidades
 
 - O site possui algumas funcionalidades criadas com JavaScript:
+
