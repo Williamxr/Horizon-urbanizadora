@@ -1,6 +1,6 @@
-<h1>🚧 PROJETO EM CONSTRUÇÃO 🚧
+<h1 align='center'>🚧 PROJETO EM CONSTRUÇÃO 🚧
 
-<h1 align='center'> Horizon Urbanizadora</h1>
+<h1> Horizon Urbanizadora</h1>
 
 ## Sobre
 
