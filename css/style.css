@@ -820,8 +820,8 @@ ul, a{
     box-shadow: 0 4px #fff, 0 -4px #fff;
   }
   #menu{
-    display: flex;
-    justify-content: center;
+    display: none;
+    justify-content: left;
     position: absolute;
     background: linear-gradient(135deg, #b3d3d9, #4e7d95);
     width: 120px;
@@ -829,5 +829,8 @@ ul, a{
     padding: 80px 0 20px 0;
     top: 0;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .2);
+  }
+  #menu.active{
+    display: flex;
   }
 }
