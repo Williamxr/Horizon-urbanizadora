@@ -683,6 +683,18 @@ ul, a{
   padding: 20px 0;
 }
 
+.botao{
+  width: 160px;
+  padding: 10px 5px;
+  font-size: .875rem;
+  letter-spacing: 1px;
+  color: #fff;
+  background:#0e5b92;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 15px;
+}
+
 @media(max-width:1110px){
   .contato-form{
     display: grid;
@@ -696,6 +708,13 @@ ul, a{
   .form-titulo h2{
     padding: 0;
     margin: 0 auto;
+  }
+}
+
+@media(max-width:800px){
+  .botao{
+    display: flex;
+    margin: 0 auto 15px auto;
   }
 }
 
