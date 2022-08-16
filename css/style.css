@@ -711,13 +711,6 @@ ul, a{
   }
 }
 
-@media(max-width:800px){
-  .botao{
-    display: flex;
-    margin: 0 auto 15px auto;
-  }
-}
-
 @media(max-width:480px){
   .form .form-dados{
     display: grid;
@@ -740,6 +733,11 @@ ul, a{
     grid-column: 1;
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .botao{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -90px;
   }
 }
 
