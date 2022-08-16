@@ -684,6 +684,8 @@ ul, a{
 }
 
 .botao{
+  display: block;
+  margin: 0 auto;
   width: 160px;
   padding: 10px 5px;
   font-size: .875rem;
@@ -735,9 +737,8 @@ ul, a{
     grid-template-columns: 1fr;
   }
   .botao{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: -90px;
+    display: block;
+
   }
 }
 
@@ -810,7 +811,7 @@ ul, a{
 
 @media(max-width:600px){
   [data-menu='button']{
-    display: flex;
+    display: block;
     align-items: center;
     background: #222;
     border: none;
@@ -831,6 +832,7 @@ ul, a{
     content: '';
     display: inline-block;
     margin-right: 4px;
+    margin-bottom: 3px;
     height: 2px;
     width: 12px;
     background: #fff;
