@@ -835,8 +835,12 @@ ul, a{
     width: 12px;
     background: #fff;
     box-shadow: 0 4px #fff, 0 -4px #fff;
+    transition: transform .3s;
   }
-  #menu{
+  [data-menu='button'].active::before{
+    transform: rotate(90deg);
+  }
+  [data-list="list"]{
     display: none;
     justify-content: left;
     position: absolute;
@@ -847,7 +851,7 @@ ul, a{
     top: 0;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .2);
   }
-  #menu.active{
-    display: flex;
+  [data-list="list"].active{
+    display: block;
   }
 }
