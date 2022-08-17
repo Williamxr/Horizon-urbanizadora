@@ -811,7 +811,7 @@ ul, a{
 
 @media(max-width:600px){
   [data-menu='button']{
-    display: block;
+    display: flex;
     align-items: center;
     background: #222;
     border: none;
