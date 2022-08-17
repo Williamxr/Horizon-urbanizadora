@@ -108,6 +108,9 @@ ul, a{
     padding: 8px 5px;
     font-size: 0.675rem
   }
+  .header-logo{
+    width: 160px;
+  }
 }
 
 /*MAIN*/
