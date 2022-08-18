@@ -841,7 +841,7 @@ ul, a{
     content: '';
     display: inline-block;
     margin-right: 4px;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     height: 2px;
     width: 12px;
     background: #fff;
@@ -867,7 +867,7 @@ ul, a{
   }
 }
 
-@media(max-width:600px){
+@media(max-width:350px){
   [data-menu='button']{
     width: 85px;
   }
