@@ -113,6 +113,12 @@ ul, a{
   }
 }
 
+@media(max-width:350px){
+  .header-logo{
+    width: 130px;
+  }
+}
+
 /*MAIN*/
 
 .main{
@@ -858,5 +864,11 @@ ul, a{
   }
   [data-list="list"].active{
     display: block;
+  }
+}
+
+@media(max-width:600px){
+  [data-menu='button']{
+    width: 85px;
   }
 }
