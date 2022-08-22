@@ -24,8 +24,8 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 
 - <h2>O site possuirá algumas funcionalidades que ainda estão sendo implementadas com JavaScript:
 
-[🗸] Scroll suave para links internos, ou seja, sempre que o usuário clicar em algum link interno(sobre, contato, serviços), a página faz o scroll de forma suave até à section correspondente
+🗸 Scroll suave para links internos, ou seja, sempre que o usuário clicar em algum link interno(sobre, contato, serviços), a página faz o scroll de forma suave até à section correspondente
 
-[🗸] Animação ao scroll, ou seja, o conteúdo do site vai carregando suavemente conforme o usuário vai descendo a página
+🗸 Animação ao scroll, ou seja, o conteúdo do site vai carregando suavemente conforme o usuário vai descendo a página
 
-[] Menu desktop e mobile
+🗸 Menu desktop e mobile
