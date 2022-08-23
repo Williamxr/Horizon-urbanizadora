@@ -29,3 +29,5 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 🗸 Animação ao scroll, ou seja, o conteúdo do site vai carregando suavemente conforme o usuário vai descendo a página
 
 🗸 Menu desktop e mobile
+
+Função que indica para o usuário se os canais de atendimento estão funcionando ou desligados conforme o horário de funcionamento
