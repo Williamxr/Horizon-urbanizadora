@@ -30,4 +30,4 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 
 🗸 Menu desktop e mobile
 
-Função que indica para o usuário se os canais de atendimento estão funcionando ou desligados conforme o horário de funcionamento
+🗸 Função que indica para o usuário se os canais de atendimento estão funcionando ou desligados conforme o horário de funcionamento
