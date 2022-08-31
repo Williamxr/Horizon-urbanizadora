@@ -29,3 +29,5 @@ O projeto foi desenvolvido usando as seguintes tecnologias:
 🗸 Menu desktop e mobile
 
 🗸 Funcionalidade que indica para o usuário se os canais de atendimento estão ou não funcionando conforme o horário de funcionamento, através de um feedback visual simples
+
+Carrossel de imagens no banner principal
